@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Practice lesson 2</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="main.css">
+	<head>
+	
+	<!-- Body of page -->
+	<body>
+		<!-- Header -->
+		<header>
+				<!-- © Copyright programing -->
+				<a href="./../../index.html">./../ go back</a>
+        		<h1>css Practice lesson 2</h1>
+        		<h4>You need to create styles to page from previous lesson. Page have to have next view</h4>
+       			<h4><a href="https://github.com/nazarap/WebUI-Study-Program/tree/master/Exercises/css_pr2" target="_blank">Link to code example</a></h4>
+				<hr>
+		</header>
+		<main>
+			<!-- Container for form-->
+			<article id="CrtNewUs">
+				<!-- Just header -->
+				<header>
+					<h1>Create new user</h1>
+				</header>
+			
+			<!--form for creating new user -->
+				<form>	
+					<label>First Name:</label> <br>
+					<input class="input-f" type="text" name="firstName"> <br><br>
+					
+					<label>Last Name:</label> <br>
+					<input class="input-f" type="text" name="lastName"> <br><br>
+					
+					<label>Age:</label> <br>
+					<input class="input-f" type="text" name="age"> <br><br>
+					
+					<label>City:</label> <br>
+					<input class="input-f" type="text" name="city"> <br><br>
+					
+					<label>List of Interest :</label>
+					<select name="cars" id="slctIntrst">
+  						<option value="basketball">Basketball</option>
+  						<option value="reading">Reading</option>
+  						<option value="programing" selected>Programing</option>
+					</select> 
+        			<label>or</label>
+        			<input id ="OwnIntrst" type="text" placeholder="Type your own interest"><br><br>
+					<!-- Submit button-->
+					<input id ="CreateUs" type="submit" value="Create">
+				</form>
+			</article>
+	
+			<!-- Container for table-->
+			<article id="ListOfUs">
+				<!-- Just second header -->
+				<header>
+					<h1>List of users</h1>	
+        		</header>
+				<!-- One table for us ,please -->
+				<table>
+					<!-- Headings of table-->
+					<tr>
+						<th id="Tblh1">User name</th>
+    					<th id="Tblh2">Age</th>
+    					<th id="Tblh3">City</th>
+						<th id="Tblh4">Interests</th>
+						<th id="Tblh5"></th>
+					</tr>
+					<tr>
+						<td>Bruce Wayne </td>
+						<td>35</td>
+						<td>Gotham</td>
+						<td>Reading, Help people</td>
+						<td><input class="input-TabButt" type="reset" value="x"></td>
+					</tr>
+					<tr>
+						<td>Bruce Wayne </td>
+						<td>35</td>
+						<td>Gotham</td>
+						<td>Reading, Help people</td>
+						<td><input class="input-TabButt" type="reset" value="x"></td>
+					</tr>
+					<tr>
+						<td>Bruce Wayne </td>
+						<td>35</td>
+						<td>Gotham</td>
+						<td>Reading, Help people</td>
+						<td><input class="input-TabButt" type="reset" value="x"></td>
+					</tr>
+			
+				</table>
+			</article>
+		<main>
+	</body>
+</html>

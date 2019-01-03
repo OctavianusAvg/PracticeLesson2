@@ -1,0 +1,99 @@
+
+/* create id elements for articles*/
+#CrtNewUs{
+	padding-right: 20px; 
+	border-right: 1px solid #929997;
+	float: left;
+	width: 49%;
+}
+#ListOfUs{
+	float: right;
+	width: 49%;
+}
+/* create id elements for create button*/
+#CreateUs{
+	border: 3px solid #1a9171;
+	background-color: transparent;
+	color: #1a9171;
+	border-radius: 20px;
+	float: right;
+	height: 40px;
+	width: 200px;
+}
+/* create id elements for input of interest*/
+#OwnIntrst{
+	border: 1px solid #1a9171;
+	border-radius: 5px;
+	height: 25px
+}
+#slctIntrst{
+	border: 1px solid #1a9171;
+	border-radius: 5px;
+	height: 25px
+}
+/*create id to each element for controling width of table*/
+
+#Tblh1{
+	background-color: #929997;
+	padding: 0px 1px; 
+	width: 24%;
+}
+#Tblh2{
+	background-color: #929997;
+	padding: 0px 1px; 
+	width: 4%;
+}
+#Tblh3{
+	background-color: #929997;
+	padding: 0px 1px; 
+	width: 14%;
+}
+#Tblh4{
+	background-color: #929997;
+	padding: 0px 1px; 
+	width: 49%;
+}
+#Tblh5{
+	background-color: #929997;
+	padding: 0px 1px; 
+	width: 4%;
+}
+
+.input-f {
+	border: 1px solid #1a9171;
+	border-radius: 5px;
+	position: relative;
+	height: 25px;
+	left: 10 px;
+	width: 50%;
+}
+.input-TabButt{
+	background-color: transparent;
+	height: 25px;
+	border: none;
+}
+.input-TabButt:hover{
+	background-color: #929997;
+	height: 25px;
+	border: none;
+
+}
+
+
+main h1{
+	color: #1a9171;
+	text-align: center;
+}
+
+main tr{	
+	text-align:left;
+	height :35px;
+}
+main table{
+	padding-left: 20px;
+}
+main form{
+	padding-left: 20px;
+}
+
+
